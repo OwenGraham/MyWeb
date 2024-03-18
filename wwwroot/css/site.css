@@ -20,3 +20,38 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#navBar{
+    width: 100%; 
+    height: 56pt; 
+    border-bottom: solid black; 
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.homeButton{
+    font-size: 30pt;
+    margin: 13pt;
+    text-decoration: none;
+    color: black;
+}
+
+.navItem{
+    margin: 15.5pt;
+    font: 25pt comic-sans
+}
+
+.navItem a{
+    text-decoration: none; 
+    color: black;
+}
+
+.navItem img{
+    height: 20pt;
+    max-width: 20pt;
+}

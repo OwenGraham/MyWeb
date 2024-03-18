@@ -10,25 +10,30 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">MyWeb</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+        <div id="navBar">
+            <a asp-page="/Home" class="homeButton">Owen Graham</a>
+
+            <ul>
+                <li class="navItem"><a asp-page="/Home">Home</a></li>
+                <li class="navItem"><a asp-page="/Gallery">Gallery</a></li>
+                <li class="navItem"><a asp-page="/Music">Music</a></li>
+            </ul>
+
+            <div style="margin-left: auto;">
+                <ul>
+                    <li class="navItem">
+                        <a href="https://www.instagram.com/owen.greyham/">
+                            <img src="C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\Pages\icons\instagram-logo.png" alt="instagram icon" class="navIcon">
+                        </a>
+                    </li>
+                    <li class="navItem">
+                        <a href="https://github.com/">
+                            <img src="icons/vimeo.png" alt="github icon" class="navIcon">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
