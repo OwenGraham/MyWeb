@@ -2,6 +2,11 @@ html {
   font-size: 14px;
 }
 
+body, html{
+  margin: 0;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -54,4 +59,76 @@ ul{
 .navItem img{
     height: 20pt;
     max-width: 20pt;
+}
+
+
+/*Home page*/
+.container{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+  max-width: 100%;
+}
+
+.parallax{
+  background-image: url("/images/parallax-bw.jpg");
+  
+  height: 1000px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.parallax1{
+  background-image: url("/images/parallax-colour.jpg");
+  
+  height: 700px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#intro{
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+
+  font-size: 50px;
+  text-align: center;
+
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+#profile{
+  font-size: 30px; 
+  margin: 10px;
+}
+
+#welcome{
+  height: 65px;
+  width: 100%;
+  background: black;
+  padding-top: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }

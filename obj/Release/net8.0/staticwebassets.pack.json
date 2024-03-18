@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\icons\\instagram-logo.png"
     },
     {
+      "Id": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\images\\parallax-bw.jpg",
+      "PackagePath": "staticwebassets\\images\\parallax-bw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\images\\parallax-colour.jpg",
+      "PackagePath": "staticwebassets\\images\\parallax-colour.jpg"
+    },
+    {
       "Id": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
