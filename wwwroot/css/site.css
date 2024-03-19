@@ -72,7 +72,7 @@ ul{
 }
 
 .parallax{
-  background-image: url("/images/parallax-bw.jpg");
+  background-image: url("/images/parallaxBW.jpg");
   
   height: 1000px;
 
@@ -86,7 +86,7 @@ ul{
 }
 
 .parallax1{
-  background-image: url("/images/parallax-colour.jpg");
+  background-image: url("/images/parallaxColour.jpg");
   
   height: 700px;
 

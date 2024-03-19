@@ -2,6 +2,11 @@ html {
   font-size: 14px;
 }
 
+body, html{
+  margin: 0;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -59,14 +64,17 @@ ul{
 
 /*Home page*/
 .container{
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
   position: relative;
-  height: 100%;
+  max-width: 100%;
 }
 
 .parallax{
-  background-image: url("/images/parallax-bw.jpg");
+  background-image: url("/images/parallaxBW.jpg");
   
-  height: 700px;
+  height: 1000px;
 
   background-attachment: fixed;
   background-position: center;
@@ -78,7 +86,7 @@ ul{
 }
 
 .parallax1{
-  background-image: url("/images/parallax-colour.jpg");
+  background-image: url("/images/parallaxColour.jpg");
   
   height: 700px;
 
