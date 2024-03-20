@@ -3,3 +3,26 @@
 @{
     ViewData["Title"] = "Gallery";
 }
+<script>
+    var gallery = @Html.Raw(Json.Serialize(Model.files));
+</script>
+
+<h1>Gallery</h1>
+
+<div id="columns">
+    <button class="numColumns" id="oneCol">
+        <img src="icons/square.png" alt="one column">
+    </button>
+    <button class="numColumns" id="twoCol">
+        <img src="icons/menu.png" alt="two columns">
+    </button>
+    <button class="numColumns" id="threeCol">
+        <img src="icons/nine-thumbnail-squares-button.png" alt="three columns">
+    </button>
+</div>
+
+<div id="gallery">
+    <div id="row"></div>
+</div>
+
+<script src="js/galleryScript.js"></script>

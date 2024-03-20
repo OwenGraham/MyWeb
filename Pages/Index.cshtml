@@ -4,7 +4,24 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="parallax"></div>
+
+    <div id="intro">Owen Graham <br><p id="profile">Software Developer</p></div>
+
+    <div id="welcome">
+        <b id="welcomeText">Welcome to my website</b><br>
+    </div>
+
+    <div class="parallax1"></div>
 </div>
+
+<script>
+    var observer = new IntersectionObserver(function(entries){
+        if(entries[0].isIntersecting === true)
+            document.querySelector('#welcomeText').animate([{opacity: 0}, {opacity: 1}], 2000,)
+    }, {threshold: [0]});
+
+    var testy = document.querySelector('#welcome');
+    observer.observe(testy);
+</script>
