@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\js\\galleryScript.js"
     },
     {
+      "Id": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\js\\homeScript.js",
+      "PackagePath": "staticwebassets\\js\\homeScript.js"
+    },
+    {
       "Id": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u44rfig/VOYUixM/MXrcGNbJQck98whOX1a6ggCFpIQ=",
+  "Hash": "vaXJtfWiXlXd5lal44qoMxRj7wkwC2nptR12euz6oaA=",
   "Source": "MyWeb",
   "BasePath": "_content/MyWeb",
   "Mode": "Default",
@@ -623,6 +623,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\galleryScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\js\\homeScript.js",
+      "SourceId": "MyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\",
+      "BasePath": "_content/MyWeb",
+      "RelativePath": "js/homeScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\homeScript.js"
     },
     {
       "Identity": "C:\\Users\\OwenG\\OneDrive\\Documents\\My Web Sites\\MyWeb\\wwwroot\\js\\site.js",
