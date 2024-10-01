@@ -1,5 +1,0 @@
-{
-    "appService.preDeployTask": "publish-release",
-    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
-    "appService.defaultWebAppToDeploy": "undefined/subscriptions/b4f9a033-8d6f-4504-977d-8d2fbbabf33a/resourceGroups/mySiteResourceGroup/providers/Microsoft.Web/sites/Owen-Graham-Site"
-}
