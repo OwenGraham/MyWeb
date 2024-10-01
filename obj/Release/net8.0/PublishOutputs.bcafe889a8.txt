@@ -1,7 +1,0 @@
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\MyWeb.exe
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\appsettings.Development.json
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\appsettings.json
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\MyWeb.dll
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\MyWeb.deps.json
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\MyWeb.runtimeconfig.json
-C:\Users\OwenG\OneDrive\Documents\My Web Sites\MyWeb\bin\Release\net8.0\publish\MyWeb.pdb
