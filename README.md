@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an ASP.NET Core web app made by Owen Graham, to learn the basics of web development. It conttains a home page, a gallery of images, and embedded soundcloud players with songs I produced.
+This is an ASP.NET Core web application developed by Owen Graham to learn the fundamentals of web development using Razor Pages. The application features a home page, an image gallery, and embedded SoundCloud players showcasing songs I produced.
 
 > Please note the site is a work in progress.
 
