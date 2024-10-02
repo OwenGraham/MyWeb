@@ -18,6 +18,7 @@ This is an ASP.NET Core web application developed by Owen Graham to learn the fu
 - [Pages](#pages)
   - [Home Page](#home-page)
   - [Gallery Page](#gallery-page)
+  - [Music Page](#music-page)
 
 ## Technologies Used
 
@@ -82,3 +83,9 @@ The page contains several other JavaScript animations to make it more interactiv
 Clicking an image opens an enlarged version of it with buttons to click through the images. The gallery page is made slightly transparent behind the enlarged image and controls:
 
 ![Gif of selecting image from gallery to enlarge and clicking through them](readme-assets/enlarge-gallery-image-gif.gif)
+
+### Music Page
+
+![Screenshot of the music page](readme-assets/music-page-screenshot.png)
+
+The music page contains embedded ScoundCloud players to songs I produced using Ableton Live.
