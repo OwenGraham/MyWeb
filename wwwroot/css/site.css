@@ -42,6 +42,8 @@ ul{
 .homeButton{
     font-size: 30pt;
     margin: 13pt;
+    margin-top: auto;
+    margin-bottom: auto;
     text-decoration: none;
     color: black;
     vertical-align: middle;
