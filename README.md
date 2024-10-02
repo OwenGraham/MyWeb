@@ -1,4 +1,4 @@
-# Owen Graham's ASP.NET Website
+# Owen Graham's ASP.NET Website <!-- omit from toc -->
 
 ## Overview
 
@@ -8,24 +8,44 @@ This is an ASP.NET Core web application developed by Owen Graham to learn the fu
 
 ## Contents
 
-- [User Guide](#user-guide)
+- [Overview](#overview)
+- [Contents](#contents)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Project Setup](#project-setup)
   - [Prerequisites](#prerequisites)
+  - [Running the Application](#running-the-application)
 - [Pages](#pages)
+  - [Home Page](#home-page)
+  - [Gallery Page](#gallery-page)
 
-## User Guide
+## Technologies Used
+
+- **ASP.NET Core**: Web framework for building dynamic web applications.
+- **Razor Pages**: Simplified page-based coding model for building UI.
+- **JavaScript**: Used for interactivity and animations.
+- **CSS/HTML**: For styling and layout.
+
+## Features
+
+- **Home Page**: Parallax scrolling effect with background images.
+- **Gallery Page**: Grid layout of images with interactive animations and a lightbox feature.
+- **Embedded Music Player**: Showcases songs produced by me using soundcloud.
+
+## Project Setup
 
 ### Prerequisites
 
 - [Dotnet SDK 8](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-Follow the steps below to run the web app:
+### Running the Application
 
 1. Clone the git repository
 
 > `git clone https://github.com/OwenGraham/MyWeb.git`
 
-2. Open a terminal and navigate to the reposiory root
-3. Run the following command to run the app:
+1. Open a terminal and navigate to the reposiory root
+2. Run the following command to run the app:
 
 > `dotnet run`
 
