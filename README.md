@@ -40,23 +40,12 @@ This is an ASP.NET Core web application developed by Owen Graham to learn the fu
 
 ### Running the Application
 
-1. Clone the git repository
-
-> `git clone https://github.com/OwenGraham/MyWeb.git`
+1. Clone the git repository: `git clone https://github.com/OwenGraham/MyWeb.git`
 
 1. Open a terminal and navigate to the reposiory root
-2. Run the following command to run the app:
+2. Run the following command to run the app: `dotnet run`
 
-> `dotnet run`
-
-4. Open the page by going to the URL printed in the terminal in a browser. For example if the output contains
-
-```
-info: Microsoft.Hosting.Lifetime[14]
-Now listening on: http://localhost:5253
-```
-
-Open http://localhost:5253 in your browser.
+4. Open the app in your browser using the URL printed in the terminal, e.g., `http://localhost:5253`.
 
 ## Pages
 
@@ -64,7 +53,7 @@ Open http://localhost:5253 in your browser.
 
 ![Screenshot of homepage](readme-assets/home-page-screenshot.png)
 
-The home page of the website includes a parallax background. The background is a black and white image that remains static relative to the viewport when the user scrolls down the page, until they scroll past a horizontal bar after which the image is revealed in colour.
+The home page includes a parallax background effect, where the static image is revealed in color as the user scrolls down.
 
 ![Gif of parallax on home page](readme-assets/home-page-gif.gif)
 
@@ -72,12 +61,13 @@ The home page of the website includes a parallax background. The background is a
 
 ![Screenshot of gallery page](readme-assets/gallery-3-columns.png)
 
-The gallery page is a collection of photographs I like displayed in a grid.
+The gallery page displays a collection of photographs in a grid format. Users can adjust the size of the images by selecting the number of columns. The page also includes various animations for a more interactive experience.
 
-The user can change how large the images are by selecting the number of columns the grid has.
-
-| ![alt text](readme-assets/gallery-3-columns.png) | ![alt text](readme-assets/gallery-2-columns.png) | ![alt text](readme-assets/gallery-1-column.png) |
-| ------------------------------------------------ | ------------------------------------------------ | ----------------------------------------------- |
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <img style="width: 30%;" src="readme-assets/gallery-1-column.png">
+  <img style="width: 30%;" src="readme-assets/gallery-2-columns.png">
+  <img style="width: 30%;" src="readme-assets/gallery-3-columns.png">
+</div>
 
 The page contains several other JavaScript animations to make it more interactive and engaging:
 
